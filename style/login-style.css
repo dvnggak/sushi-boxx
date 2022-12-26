@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  font-size: large;
+}
+
+body {
+  background-color: #fdfdff;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  width: 50%;
+  height: 25rem;
+  background-color: #f9d8ad;
+  text-align: center;
+  border-radius: 50px;
+  margin-top: 8rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-primary-mod {
+  background-color: #ff6c64;
+  color: white;
+  border: none;
+}
+.btn-primary-mod:hover {
+  background-color: #f73c4f;
+  color: white;
+  border: none;
+}
+
+.form-controller {
+  width: 30rem;
+  margin: auto;
+}
